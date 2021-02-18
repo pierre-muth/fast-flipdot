@@ -5,8 +5,8 @@
 #include "DotFlippersMatrix.h"
 
 // constants
-const char* ssid = "BoiteVivante";
-const char* password = "82F7625EEC6894868EA329F8E1";
+const char* ssid = "xxxxx";
+const char* password = "xxxxx";
 
 // global vars
 DotFlippersMatrix dotFlippersMatrix = DotFlippersMatrix(35, 30);
