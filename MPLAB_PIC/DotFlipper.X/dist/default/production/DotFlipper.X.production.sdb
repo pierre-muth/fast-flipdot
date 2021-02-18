@@ -1,0 +1,589 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15355 ]
+[d frameptr 6 ]
+"79 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+[e E353 . `uc
+SPI1_DEFAULT 0
+]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"57 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _setDots setDots `(v  1 e 1 0 ]
+[v i1_setDots setDots `(v  1 e 1 0 ]
+"97
+[v _spi1InterruptHandler spi1InterruptHandler `(v  1 e 1 0 ]
+"104
+[v _eusart1RxDataHandler eusart1RxDataHandler `(v  1 e 1 0 ]
+"112
+[v _tmr0InterruptHandler tmr0InterruptHandler `(v  1 e 1 0 ]
+"124
+[v _main main `(v  1 e 1 0 ]
+"58 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"83 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"162
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"173
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"197
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"207
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"209
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"217
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"221
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"225
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"229
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"234
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"52 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"81
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"99
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"148
+[v _SPI1_Isr SPI1_Isr `(v  1 e 1 0 ]
+"158
+[v _SPI1_SetInterruptHandler SPI1_SetInterruptHandler `(v  1 e 1 0 ]
+"61 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"65 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X/mcc_generated_files/spi1.h
+[v _MSSP1_InterruptHandler MSSP1_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S332 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f15355.h
+[u S337 . 1 `S332 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES337  1 e 1 @11 ]
+"446
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"508
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"570
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"653
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"715
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"777
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S142 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"794
+[u S151 . 1 `S142 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES151  1 e 1 @20 ]
+"860
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"922
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"984
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"1388
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"1442
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"1503
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"1573
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"1627
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S573 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1653
+[u S582 . 1 `S573 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES582  1 e 1 @285 ]
+"1807
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S551 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1833
+[u S560 . 1 `S551 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES560  1 e 1 @286 ]
+"1987
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"2233
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"2253
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"2443
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+"2807
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S163 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"2837
+[s S169 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S174 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S183 . 1 `S163 1 . 1 0 `S169 1 . 1 0 `S174 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES183  1 e 1 @400 ]
+"2927
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S770 . 1 `uc 1 DHEN 1 0 :1:0 
+`uc 1 AHEN 1 0 :1:1 
+`uc 1 SBCDE 1 0 :1:2 
+`uc 1 SDAHT 1 0 :1:3 
+`uc 1 BOEN 1 0 :1:4 
+`uc 1 SCIE 1 0 :1:5 
+`uc 1 PCIE 1 0 :1:6 
+`uc 1 ACKTIM 1 0 :1:7 
+]
+"3131
+[u S779 . 1 `S770 1 . 1 0 ]
+[v _SSP1CON3bits SSP1CON3bits `VES779  1 e 1 @402 ]
+"7734
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"7872
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"8126
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+[s S421 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"8146
+[s S427 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S432 . 1 `S421 1 . 1 0 `S427 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES432  1 e 1 @1438 ]
+"8191
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S315 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"9052
+[u S320 . 1 `S315 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES320  1 e 1 @1804 ]
+[s S212 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"9161
+[u S221 . 1 `S212 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES221  1 e 1 @1807 ]
+[s S302 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"9358
+[u S307 . 1 `S302 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES307  1 e 1 @1814 ]
+[s S111 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"9467
+[u S120 . 1 `S111 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES120  1 e 1 @1817 ]
+"9651
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"9696
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"9744
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"9789
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"9839
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"9884
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"10946
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"11086
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"11126
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"11183
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"11234
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"11292
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"12867
+[v _CLC1CON CLC1CON `VEuc  1 e 1 @7696 ]
+[s S679 . 1 `uc 1 LC1MODE 1 0 :3:0 
+`uc 1 LC1INTN 1 0 :1:3 
+`uc 1 LC1INTP 1 0 :1:4 
+`uc 1 LC1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC1EN 1 0 :1:7 
+]
+"12900
+[s S686 . 1 `uc 1 LC1MODE0 1 0 :1:0 
+`uc 1 LC1MODE1 1 0 :1:1 
+`uc 1 LC1MODE2 1 0 :1:2 
+]
+[s S690 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 INTN 1 0 :1:3 
+`uc 1 INTP 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[s S697 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+[u S701 . 1 `S679 1 . 1 0 `S686 1 . 1 0 `S690 1 . 1 0 `S697 1 . 1 0 ]
+[v _CLC1CONbits CLC1CONbits `VES701  1 e 1 @7696 ]
+"12985
+[v _CLC1POL CLC1POL `VEuc  1 e 1 @7697 ]
+"13063
+[v _CLC1SEL0 CLC1SEL0 `VEuc  1 e 1 @7698 ]
+"13167
+[v _CLC1SEL1 CLC1SEL1 `VEuc  1 e 1 @7699 ]
+"13271
+[v _CLC1SEL2 CLC1SEL2 `VEuc  1 e 1 @7700 ]
+"13375
+[v _CLC1SEL3 CLC1SEL3 `VEuc  1 e 1 @7701 ]
+"13479
+[v _CLC1GLS0 CLC1GLS0 `VEuc  1 e 1 @7702 ]
+"13591
+[v _CLC1GLS1 CLC1GLS1 `VEuc  1 e 1 @7703 ]
+"13703
+[v _CLC1GLS2 CLC1GLS2 `VEuc  1 e 1 @7704 ]
+"13815
+[v _CLC1GLS3 CLC1GLS3 `VEuc  1 e 1 @7705 ]
+"17591
+[v _CLCIN0PPS CLCIN0PPS `VEuc  1 e 1 @7867 ]
+"17881
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7877 ]
+"17939
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7878 ]
+"18229
+[v _RX1DTPPS RX1DTPPS `VEuc  1 e 1 @7883 ]
+"19209
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7969 ]
+"19341
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @7972 ]
+"19385
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @7973 ]
+"19429
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @7974 ]
+"19517
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"19579
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"19641
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"19703
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"19765
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"20013
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"20075
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"20137
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"20199
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"20261
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"20509
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"20571
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"20633
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"20695
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"20757
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"21005
+[v _WPUE WPUE `VEuc  1 e 1 @8037 ]
+"21026
+[v _INLVLE INLVLE `VEuc  1 e 1 @8040 ]
+"24366
+[v _PLLR PLLR `VEb  1 e 0 @17536 ]
+"50 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _lastData lastData `uc  1 e 1 0 ]
+"51
+[v _previousData previousData `uc  1 e 1 0 ]
+"52
+[v _idleStart idleStart `uc  1 e 1 0 ]
+"53
+[v _counter counter `us  1 e 2 0 ]
+"54
+[v _previousState previousState `uc  1 e 1 0 ]
+"55
+[v _nextState nextState `uc  1 e 1 0 ]
+"63 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"64
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"65
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+[s S470 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"66
+[u S475 . 1 `S470 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S475  1 e 8 0 ]
+"67
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"68
+[v _eusart1RxLastError eusart1RxLastError `VES475  1 e 1 0 ]
+"73
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"75
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"76
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"77
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+[s S99 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `DC[1]S99  1 s 4 spi1_configuration ]
+"59 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"124 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"206
+} 0
+"57
+[v _setDots setDots `(v  1 e 1 0 ]
+{
+[v setDots@newData newData `uc  1 a 1 wreg ]
+[v setDots@newData newData `uc  1 a 1 wreg ]
+"59
+[v setDots@newData newData `uc  1 a 1 2 ]
+"95
+} 0
+"50 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"61 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"136
+} 0
+"62 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"158
+[v _SPI1_SetInterruptHandler SPI1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v SPI1_SetInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"161
+} 0
+"81 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"125
+} 0
+"61 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"83 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"234
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"236
+} 0
+"225
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"227
+} 0
+"221
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"223
+} 0
+"229
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"231
+} 0
+"58 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"52 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"78
+} 0
+"173 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"195
+} 0
+"104 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _eusart1RxDataHandler eusart1RxDataHandler `(v  1 e 1 0 ]
+{
+"110
+} 0
+"162 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"169
+} 0
+"121 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"131
+} 0
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"141
+} 0
+"112 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _tmr0InterruptHandler tmr0InterruptHandler `(v  1 e 1 0 ]
+{
+"122
+} 0
+"57
+[v i1_setDots setDots `(v  1 e 1 0 ]
+{
+[v i1setDots@newData newData `uc  1 a 1 wreg ]
+[v i1setDots@newData newData `uc  1 a 1 wreg ]
+"59
+[v i1setDots@newData newData `uc  1 a 1 2 ]
+"95
+} 0
+"209 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"215
+} 0
+"207
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"217
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"219
+} 0
+"197
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"205
+} 0
+"97 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+[v _spi1InterruptHandler spi1InterruptHandler `(v  1 e 1 0 ]
+{
+"102
+} 0
+"148 C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+[v _SPI1_Isr SPI1_Isr `(v  1 e 1 0 ]
+{
+"156
+} 0

@@ -1,0 +1,1166 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 37 37 2 2
+config CONFIG 0 8007 8007 5 2
+$dist/default/production\DotFlipper.X.production.o
+cinit CODE 0 39 39 1E 2
+text1 CODE 0 57 57 CE 2
+text2 CODE 0 36D 36D 16 2
+text3 CODE 0 383 383 15 2
+text4 CODE 0 40E 40E 6 2
+text5 CODE 0 336 336 1E 2
+text6 CODE 0 414 414 6 2
+text7 CODE 0 400 400 8 2
+text8 CODE 0 303 303 33 2
+text9 CODE 0 3DB 3DB E 2
+text10 CODE 0 2CF 2CF 34 2
+text11 CODE 0 41A 41A 6 2
+text12 CODE 0 420 420 6 2
+text13 CODE 0 426 426 6 2
+text14 CODE 0 42C 42C 6 2
+text15 CODE 0 3BD 3BD F 2
+text17 CODE 0 260 260 39 2
+text18 CODE 0 3AC 3AC 11 2
+text19 CODE 0 3F6 3F6 A 2
+text20 CODE 0 3CC 3CC F 2
+text21 CODE 0 441 441 1 2
+text22 CODE 0 299 299 36 2
+text23 CODE 0 125 125 CA 2
+text24 CODE 0 436 436 4 2
+text25 CODE 0 442 442 1 2
+text26 CODE 0 43A 43A 4 2
+text27 CODE 0 354 354 19 2
+text28 CODE 0 3E9 3E9 D 2
+text29 CODE 0 398 398 14 2
+nvBANK0 BANK0 1 44 44 2 1
+maintext CODE 0 1EF 1EF 71 2
+cstackCOMMON COMMON 1 76 76 5 1
+cstackBANK0 BANK0 1 3C 3C 5 1
+stringtext1 STRCODE 0 432 432 4 2
+intentry CODE 0 4 4 33 2
+bssBANK0 BANK0 1 20 20 1C 1
+idataBANK0 CODE 0 43E 43E 3 2
+dataBANK0 BANK0 1 41 41 3 1
+clrtext CODE 0 408 408 6 2
+bssCOMMON COMMON 1 70 70 6 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 46-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 46-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2-3 2
+CONST 443-1FFF 2
+ENTRY 2-3 2
+ENTRY 443-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+SFR32 1000-106F 1
+SFR33 1080-10EF 1
+SFR34 1100-116F 1
+SFR35 1180-11EF 1
+SFR36 1200-126F 1
+SFR37 1280-12EF 1
+SFR38 1300-136F 1
+SFR39 1380-13EF 1
+SFR40 1400-146F 1
+SFR41 1480-14EF 1
+SFR42 1500-156F 1
+SFR43 1580-15EF 1
+SFR44 1600-166F 1
+SFR45 1680-16EF 1
+SFR46 1700-176F 1
+SFR47 1780-17EF 1
+SFR48 1800-186F 1
+SFR49 1880-18EF 1
+SFR50 1900-196F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+STACK 2026-23EF 1
+CODE 2-3 2
+CODE 443-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+COMMON 7B-7D 1
+STRCODE 2-3 2
+STRCODE 443-1FFF 2
+STRING 2-3 2
+STRING 443-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\DotFlipper.X.production.o
+39 cinit CODE >5965:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+39 cinit CODE >5968:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+39 cinit CODE >6039:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+3C cinit CODE >6040:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+3D cinit CODE >6041:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+40 cinit CODE >6042:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+41 cinit CODE >6043:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+44 cinit CODE >6044:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+45 cinit CODE >6061:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+46 cinit CODE >6062:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+47 cinit CODE >6063:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+48 cinit CODE >6064:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+49 cinit CODE >6065:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4A cinit CODE >6066:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4B cinit CODE >6070:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4C cinit CODE >6071:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4D cinit CODE >6072:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4E cinit CODE >6073:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4F cinit CODE >6074:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+50 cinit CODE >6075:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+53 cinit CODE >6081:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+53 cinit CODE >6083:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+54 cinit CODE >6084:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+55 cinit CODE >6085:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+4 intentry CODE >52:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+F intentry CODE >57:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >58:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+13 intentry CODE >59:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+17 intentry CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+1F intentry CODE >63:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+25 intentry CODE >64:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+26 intentry CODE >65:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+2E intentry CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+34 intentry CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+35 intentry CODE >77:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+35 intentry CODE >78:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/interrupt_manager.c
+398 text29 CODE >148:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+398 text29 CODE >150:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+39D text29 CODE >151:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+3A4 text29 CODE >152:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+3A9 text29 CODE >154:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+3AB text29 CODE >156:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+3E9 text28 CODE >97:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3E9 text28 CODE >98:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3EB text28 CODE >99:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3F1 text28 CODE >100:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3F3 text28 CODE >101:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3F5 text28 CODE >102:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+354 text27 CODE >197:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+354 text27 CODE >199:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+361 text27 CODE >200:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+367 text27 CODE >202:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+368 text27 CODE >204:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+36C text27 CODE >205:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+43A text26 CODE >217:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+43A text26 CODE >218:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+43D text26 CODE >219:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+442 text25 CODE >207:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+436 text24 CODE >209:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+436 text24 CODE >212:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+438 text24 CODE >213:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+439 text24 CODE >215:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+125 text23 CODE >57:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+126 text23 CODE >59:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+12D text23 CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+12E text23 CODE >62:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+12F text23 CODE >64:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+13A text23 CODE >65:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+145 text23 CODE >66:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+150 text23 CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+155 text23 CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+161 text23 CODE >69:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+16D text23 CODE >70:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+179 text23 CODE >72:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+184 text23 CODE >73:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+18F text23 CODE >74:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+19A text23 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+19F text23 CODE >76:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1AB text23 CODE >77:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1B7 text23 CODE >78:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1C3 text23 CODE >80:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1C6 text23 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1C8 text23 CODE >82:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1D0 text23 CODE >83:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1D2 text23 CODE >84:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1D3 text23 CODE >86:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1DA text23 CODE >87:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1DE text23 CODE >89:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1E1 text23 CODE >90:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1E3 text23 CODE >91:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1EB text23 CODE >92:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1ED text23 CODE >93:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1EE text23 CODE >95:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+299 text22 CODE >112:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+299 text22 CODE >113:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+29F text22 CODE >114:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+2B5 text22 CODE >115:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+2C5 text22 CODE >117:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+2CA text22 CODE >119:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+2CE text22 CODE >122:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+441 text21 CODE >138:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+441 text21 CODE >141:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3CC text20 CODE >121:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3CC text20 CODE >124:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3CE text20 CODE >125:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3D5 text20 CODE >127:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3DA text20 CODE >131:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+3F6 text19 CODE >162:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3F7 text19 CODE >164:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3F7 text19 CODE >166:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3FC text19 CODE >168:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3FF text19 CODE >169:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3AC text18 CODE >104:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3AC text18 CODE >105:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3AE text18 CODE >106:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3B2 text18 CODE >107:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3B8 text18 CODE >108:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3BA text18 CODE >109:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+3BC text18 CODE >110:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+260 text17 CODE >173:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+260 text17 CODE >176:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+265 text17 CODE >178:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+26A text17 CODE >179:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+26F text17 CODE >180:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+275 text17 CODE >183:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+27A text17 CODE >184:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+27F text17 CODE >185:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+285 text17 CODE >188:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+28E text17 CODE >189:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+294 text17 CODE >190:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+295 text17 CODE >191:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+298 text17 CODE >195:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3BD text15 CODE >58:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3BD text15 CODE >63:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C0 text15 CODE >65:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C1 text15 CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C2 text15 CODE >69:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C3 text15 CODE >71:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C4 text15 CODE >73:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C6 text15 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C7 text15 CODE >77:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C8 text15 CODE >79:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3C9 text15 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+3CB text15 CODE >83:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/clc1.c
+42C text14 CODE >229:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+42C text14 CODE >230:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+431 text14 CODE >231:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+426 text13 CODE >221:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+426 text13 CODE >222:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+42B text13 CODE >223:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+420 text12 CODE >225:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+420 text12 CODE >226:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+425 text12 CODE >227:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+41A text11 CODE >234:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+41A text11 CODE >235:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+41F text11 CODE >236:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2CF text10 CODE >83:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2CF text10 CODE >86:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2D1 text10 CODE >87:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2D9 text10 CODE >91:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2DC text10 CODE >94:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2DE text10 CODE >97:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2E0 text10 CODE >100:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2E2 text10 CODE >103:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2E3 text10 CODE >106:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2EB text10 CODE >107:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2F3 text10 CODE >108:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2FB text10 CODE >110:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2FD text10 CODE >113:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2FE text10 CODE >114:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+2FF text10 CODE >115:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+300 text10 CODE >118:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+302 text10 CODE >119:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/eusart1.c
+3DB text9 CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3DB text9 CODE >64:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3DE text9 CODE >66:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3DF text9 CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E0 text9 CODE >70:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E2 text9 CODE >72:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E3 text9 CODE >74:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E4 text9 CODE >76:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E4 text9 CODE >78:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+3E8 text9 CODE >79:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+303 text8 CODE >55:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+303 text8 CODE >60:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+305 text8 CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+306 text8 CODE >62:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+307 text8 CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+308 text8 CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+309 text8 CODE >69:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+30B text8 CODE >74:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+30D text8 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+30E text8 CODE >76:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+30F text8 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+310 text8 CODE >82:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+311 text8 CODE >83:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+312 text8 CODE >84:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+313 text8 CODE >89:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+314 text8 CODE >90:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+315 text8 CODE >91:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+316 text8 CODE >96:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+318 text8 CODE >97:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+31A text8 CODE >98:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+31C text8 CODE >103:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+31E text8 CODE >104:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+320 text8 CODE >105:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+322 text8 CODE >106:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+324 text8 CODE >118:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+327 text8 CODE >119:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+329 text8 CODE >120:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+32C text8 CODE >121:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+32E text8 CODE >122:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+330 text8 CODE >123:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+333 text8 CODE >124:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+335 text8 CODE >125:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/pin_manager.c
+400 text7 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+400 text7 CODE >84:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+402 text7 CODE >86:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+403 text7 CODE >88:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+404 text7 CODE >90:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+405 text7 CODE >92:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+406 text7 CODE >94:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+407 text7 CODE >95:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+414 text6 CODE >158:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+414 text6 CODE >160:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+419 text6 CODE >161:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+336 text5 CODE >62:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+336 text5 CODE >65:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+339 text5 CODE >66:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+33B text5 CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+33D text5 CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+33F text5 CODE >70:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+342 text5 CODE >71:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+344 text5 CODE >72:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+345 text5 CODE >73:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+347 text5 CODE >74:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+34F text5 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+351 text5 CODE >76:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+353 text5 CODE >77:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/spi1.c
+40E text4 CODE >134:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+40E text4 CODE >135:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+413 text4 CODE >136:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+383 text3 CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+383 text3 CODE >66:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+386 text3 CODE >69:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+388 text3 CODE >72:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+389 text3 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+38B text3 CODE >78:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+38C text3 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+394 text3 CODE >84:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+397 text3 CODE >85:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/tmr0.c
+36D text2 CODE >50:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+36D text2 CODE >52:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+370 text2 CODE >53:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+373 text2 CODE >54:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+376 text2 CODE >55:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+379 text2 CODE >56:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+37C text2 CODE >57:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+37F text2 CODE >58:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+382 text2 CODE >59:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\mcc_generated_files/mcc.c
+57 text1 CODE >57:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+59 text1 CODE >59:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+60 text1 CODE >61:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+61 text1 CODE >62:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+62 text1 CODE >64:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+6D text1 CODE >65:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+78 text1 CODE >66:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+83 text1 CODE >67:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+88 text1 CODE >68:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+94 text1 CODE >69:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+A0 text1 CODE >70:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+AC text1 CODE >72:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+B7 text1 CODE >73:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+C2 text1 CODE >74:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+CD text1 CODE >75:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+D2 text1 CODE >76:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+DE text1 CODE >77:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+EA text1 CODE >78:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+F6 text1 CODE >80:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+F8 text1 CODE >81:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+FA text1 CODE >82:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+103 text1 CODE >83:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+105 text1 CODE >84:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+106 text1 CODE >86:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+10F text1 CODE >87:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+114 text1 CODE >89:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+116 text1 CODE >90:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+118 text1 CODE >91:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+121 text1 CODE >92:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+123 text1 CODE >93:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+124 text1 CODE >95:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1EF maintext CODE >124:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1EF maintext CODE >125:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1F1 maintext CODE >126:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1F2 maintext CODE >127:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1F3 maintext CODE >130:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+1F6 maintext CODE >132:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+202 maintext CODE >133:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+206 maintext CODE >134:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+212 maintext CODE >135:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+216 maintext CODE >136:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+222 maintext CODE >137:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+226 maintext CODE >138:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+233 maintext CODE >140:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+23B maintext CODE >141:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+243 maintext CODE >142:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+24B maintext CODE >143:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+24D maintext CODE >144:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+24E maintext CODE >149:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+24F maintext CODE >152:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+250 maintext CODE >163:C:\Users\pfreyerm\MPLABXProjects\DotFlipper.X\main.c
+408 clrtext CODE >6050:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+408 clrtext CODE >6051:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+409 clrtext CODE >6052:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+409 clrtext CODE >6053:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+40A clrtext CODE >6054:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+40B clrtext CODE >6055:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+40C clrtext CODE >6056:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+40D clrtext CODE >6057:C:\Users\pfreyerm\AppData\Local\Temp\s8cc.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 800C 0 ABS 0 - -
+__Hspace_1 7B 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+_CLC1CON 1E10 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1POL 1E11 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+EUSART1_SetErrorHandler@interruptHandler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+_EUSART1_Initialize 59E 0 CODE 0 text10 dist/default/production\DotFlipper.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD_Initialize 800 0 CODE 0 text7 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_DefaultErrorHandler 87C 0 CODE 0 text26 dist/default/production\DotFlipper.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+__CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_LATA 18 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_LATB 19 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_LATC 1A 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PLLR 4480 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD0 796 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD1 797 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD2 798 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD3 799 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD4 79A 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PMD5 79B 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_WPUA 1F39 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_WPUB 1F44 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_WPUC 1F4F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_WPUE 1F65 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+_main 3DE 0 CODE 0 maintext dist/default/production\DotFlipper.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+start 6E 0 CODE 0 init C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+_TMR0_InterruptHandler 36 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_SPI1_Initialize 6A8 0 CODE 0 text5 dist/default/production\DotFlipper.X.production.o
+__end_of_TMR0_SetInterruptHandler 828 0 CODE 0 text4 dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_Receive_ISR 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_CLC1_Initialize 798 0 CODE 0 text15 dist/default/production\DotFlipper.X.production.o
+_lastData 3A 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_spi1_configuration 86C 0 STRCODE 0 stringtext1 dist/default/production\DotFlipper.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+TMR0_SetInterruptHandler@InterruptHandler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+__size_of_EUSART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_nextState 70 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__size_of_setDots 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 11D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_PMD_Initialize 810 0 CODE 0 text7 dist/default/production\DotFlipper.X.production.o
+EUSART1_Write@txData 76 0 COMMON 1 cstackCOMMON dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLCIN0PPS 1EBB 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__size_of_EUSART1_RxDataHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_Receive_ISR 4C0 0 CODE 0 text17 dist/default/production\DotFlipper.X.production.o
+_SPI1_Initialize 66C 0 CODE 0 text5 dist/default/production\DotFlipper.X.production.o
+_spi1_configuration 864 0 STRCODE 0 stringtext1 dist/default/production\DotFlipper.X.production.o
+_idleStart 43 0 BANK0 1 dataBANK0 dist/default/production\DotFlipper.X.production.o
+_ANSELA 1F38 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_ANSELB 1F43 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_ANSELC 1F4E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TMR0_DefaultInterruptHandler 882 0 CODE 0 text21 dist/default/production\DotFlipper.X.production.o
+_CLC1_Initialize 77A 0 CODE 0 text15 dist/default/production\DotFlipper.X.production.o
+_MSSP1_InterruptHandler 44 0 BANK0 1 nvBANK0 dist/default/production\DotFlipper.X.production.o
+_CLC1CONbits 1E10 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_INTERRUPT_InterruptManager 6E 0 CODE 0 intentry dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_SetRxInterruptHandler 840 0 CODE 0 text11 dist/default/production\DotFlipper.X.production.o
+_tmr0InterruptHandler 532 0 CODE 0 text22 dist/default/production\DotFlipper.X.production.o
+__size_of_spi1InterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+EUSART1_SetFramingErrorHandler@interruptHandler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+_INLVLA 1F3C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_INLVLB 1F47 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_INLVLC 1F52 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_INLVLE 1F68 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+___stackhi 23EF 0 ABS 0 - C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+___stacklo 2026 0 ABS 0 - C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+__CFG_SAFEN$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_spi1InterruptHandler 7EC 0 CODE 0 text28 dist/default/production\DotFlipper.X.production.o
+_PIN_MANAGER_Initialize 606 0 CODE 0 text8 dist/default/production\DotFlipper.X.production.o
+__end_ofi1_setDots 3DE 0 CODE 0 text23 dist/default/production\DotFlipper.X.production.o
+start_initialization 72 0 CODE 0 cinit dist/default/production\DotFlipper.X.production.o
+_eusart1RxLastError 3B 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+_ODCONA 1F3A 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_ODCONB 1F45 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_ODCONC 1F50 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_ofi1_setDots 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCFRQ 893 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_setDots 24A 0 CODE 0 text1 dist/default/production\DotFlipper.X.production.o
+__CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TRISCbits 14 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC1PPS 1F21 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC1REG 119 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC1STA 11D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC4PPS 1F24 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC5PPS 1F25 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_RC6PPS 1F26 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_previousData 72 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+__end_of_SYSTEM_Initialize 706 0 CODE 0 text2 dist/default/production\DotFlipper.X.production.o
+clear_ram0 810 0 CODE 0 clrtext dist/default/production\DotFlipper.X.production.o
+__pcstackBANK0 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+_T0CON0 59E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_T0CON1 59F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+setDots@newData 3E 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+i1_setDots 24A 0 CODE 0 text23 dist/default/production\DotFlipper.X.production.o
+_TX1REG 11A 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TX1STA 11E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_eusart1RxDataHandler 758 0 CODE 0 text18 dist/default/production\DotFlipper.X.production.o
+__CFG_RSTOSC$HFINTPLL 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_SPI1_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_DefaultFramingErrorHandler 884 0 CODE 0 text25 dist/default/production\DotFlipper.X.production.o
+_EUSART1_DefaultOverrunErrorHandler 86C 0 CODE 0 text24 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_Receive_ISR 532 0 CODE 0 text17 dist/default/production\DotFlipper.X.production.o
+__size_of_SPI1_Isr 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_CLC1_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+_EUSART1_Write 7EC 0 CODE 0 text19 dist/default/production\DotFlipper.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit AE 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank32 0 0 BANK32 1 bank32 -
+__Hbank33 0 0 BANK33 1 bank33 -
+__Hbank34 0 0 BANK34 1 bank34 -
+__Hbank35 0 0 BANK35 1 bank35 -
+__Hbank36 0 0 BANK36 1 bank36 -
+__Hbank37 0 0 BANK37 1 bank37 -
+__Hbank38 0 0 BANK38 1 bank38 -
+__Hbank39 0 0 BANK39 1 bank39 -
+__Hbank40 0 0 BANK40 1 bank40 -
+__Hbank41 0 0 BANK41 1 bank41 -
+__Hbank42 0 0 BANK42 1 bank42 -
+__Hbank43 0 0 BANK43 1 bank43 -
+__Hbank44 0 0 BANK44 1 bank44 -
+__Hbank45 0 0 BANK45 1 bank45 -
+__Hbank46 0 0 BANK46 1 bank46 -
+__Hbank47 0 0 BANK47 1 bank47 -
+__Hbank48 0 0 BANK48 1 bank48 -
+__Hbank49 0 0 BANK49 1 bank49 -
+__Hbank50 0 0 BANK50 1 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 11F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 72 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+_EUSART1_FramingErrorHandler 34 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+_EUSART1_OverrunErrorHandler 32 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 6E 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 6E 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 864 0 STRCODE 0 stringtext1 dist/default/production\DotFlipper.X.production.o
+__pnvBANK0 44 0 BANK0 1 nvBANK0 dist/default/production\DotFlipper.X.production.o
+_SSP1CON1 190 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1CON2 191 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+int$flags 7E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1GLS0 1E16 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1GLS1 1E17 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1GLS2 1E18 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1GLS3 1E19 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1SEL0 1E12 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1SEL1 1E13 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1SEL2 1E14 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_CLC1SEL3 1E15 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_RxDefaultInterruptHandler 38 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+_SPI1_SetInterruptHandler 828 0 CODE 0 text6 dist/default/production\DotFlipper.X.production.o
+__S0 800C 0 ABS 0 - -
+__S1 7B 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__size_of_TMR0_ISR 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_SetRxInterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_DefaultErrorHandler 874 0 CODE 0 text26 dist/default/production\DotFlipper.X.production.o
+_SPI1_Isr 730 0 CODE 0 text29 dist/default/production\DotFlipper.X.production.o
+_previousState 71 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+__end_of_TMR0_DefaultInterruptHandler 884 0 CODE 0 text21 dist/default/production\DotFlipper.X.production.o
+__CFG_BBEN$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_SPI1_Isr 758 0 CODE 0 text29 dist/default/production\DotFlipper.X.production.o
+_SYSTEM_Initialize 6DA 0 CODE 0 text2 dist/default/production\DotFlipper.X.production.o
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\pfreyerm\AppData\Local\Temp\s8cc.o
+__pdataBANK0 41 0 BANK0 1 dataBANK0 dist/default/production\DotFlipper.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\DotFlipper.X.production.o
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PIE0bits 716 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PIE3bits 719 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_Write 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_eusart1RxHead 75 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+_eusart1RxTail 74 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+_TMR0_ISR 798 0 CODE 0 text20 dist/default/production\DotFlipper.X.production.o
+__ptext10 59E 0 CODE 0 text10 dist/default/production\DotFlipper.X.production.o
+__ptext11 834 0 CODE 0 text11 dist/default/production\DotFlipper.X.production.o
+__ptext12 840 0 CODE 0 text12 dist/default/production\DotFlipper.X.production.o
+__ptext13 84C 0 CODE 0 text13 dist/default/production\DotFlipper.X.production.o
+__ptext14 858 0 CODE 0 text14 dist/default/production\DotFlipper.X.production.o
+__ptext15 77A 0 CODE 0 text15 dist/default/production\DotFlipper.X.production.o
+__ptext17 4C0 0 CODE 0 text17 dist/default/production\DotFlipper.X.production.o
+__ptext18 758 0 CODE 0 text18 dist/default/production\DotFlipper.X.production.o
+__ptext19 7EC 0 CODE 0 text19 dist/default/production\DotFlipper.X.production.o
+__ptext20 798 0 CODE 0 text20 dist/default/production\DotFlipper.X.production.o
+__ptext21 882 0 CODE 0 text21 dist/default/production\DotFlipper.X.production.o
+__ptext22 532 0 CODE 0 text22 dist/default/production\DotFlipper.X.production.o
+__ptext23 24A 0 CODE 0 text23 dist/default/production\DotFlipper.X.production.o
+__ptext24 86C 0 CODE 0 text24 dist/default/production\DotFlipper.X.production.o
+__ptext25 884 0 CODE 0 text25 dist/default/production\DotFlipper.X.production.o
+__ptext26 874 0 CODE 0 text26 dist/default/production\DotFlipper.X.production.o
+__ptext27 6A8 0 CODE 0 text27 dist/default/production\DotFlipper.X.production.o
+__ptext28 7D2 0 CODE 0 text28 dist/default/production\DotFlipper.X.production.o
+__ptext29 730 0 CODE 0 text29 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_DefaultFramingErrorHandler 886 0 CODE 0 text25 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_DefaultOverrunErrorHandler 874 0 CODE 0 text24 dist/default/production\DotFlipper.X.production.o
+__end_of_PIN_MANAGER_Initialize 66C 0 CODE 0 text8 dist/default/production\DotFlipper.X.production.o
+__end_of_TMR0_Initialize 730 0 CODE 0 text3 dist/default/production\DotFlipper.X.production.o
+_EUSART1_ErrorHandler 30 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank32 0 0 BANK32 1 bank32 -
+__Lbank33 0 0 BANK33 1 bank33 -
+__Lbank34 0 0 BANK34 1 bank34 -
+__Lbank35 0 0 BANK35 1 bank35 -
+__Lbank36 0 0 BANK36 1 bank36 -
+__Lbank37 0 0 BANK37 1 bank37 -
+__Lbank38 0 0 BANK38 1 bank38 -
+__Lbank39 0 0 BANK39 1 bank39 -
+__Lbank40 0 0 BANK40 1 bank40 -
+__Lbank41 0 0 BANK41 1 bank41 -
+__Lbank42 0 0 BANK42 1 bank42 -
+__Lbank43 0 0 BANK43 1 bank43 -
+__Lbank44 0 0 BANK44 1 bank44 -
+__Lbank45 0 0 BANK45 1 bank45 -
+__Lbank46 0 0 BANK46 1 bank46 -
+__Lbank47 0 0 BANK47 1 bank47 -
+__Lbank48 0 0 BANK48 1 bank48 -
+__Lbank49 0 0 BANK49 1 bank49 -
+__Lbank50 0 0 BANK50 1 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 3DE 0 CODE 0 maintext dist/default/production\DotFlipper.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__CFG_BBSIZE$BB512 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_TMR0_ISR 7B6 0 CODE 0 text20 dist/default/production\DotFlipper.X.production.o
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_SetErrorHandler 858 0 CODE 0 text14 dist/default/production\DotFlipper.X.production.o
+__CFG_WRTAPP$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_SetErrorHandler 864 0 CODE 0 text14 dist/default/production\DotFlipper.X.production.o
+_TMR0_SetInterruptHandler 81C 0 CODE 0 text4 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_SetFramingErrorHandler 858 0 CODE 0 text13 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_SetOverrunErrorHandler 84C 0 CODE 0 text12 dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_Write 800 0 CODE 0 text19 dist/default/production\DotFlipper.X.production.o
+_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCCON1 88D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCCON3 88F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCSTAT 890 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCTUNE 892 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_setDots AE 0 CODE 0 text1 dist/default/production\DotFlipper.X.production.o
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 70 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_EUSART1_RxDataHandler 6DA 0 CODE 0 text27 dist/default/production\DotFlipper.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_spi1InterruptHandler 7D2 0 CODE 0 text28 dist/default/production\DotFlipper.X.production.o
+SPI1_SetInterruptHandler@handler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+_PIR0bits 70C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PIR3bits 70F 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lend_init 6E 0 CODE 0 end_init -
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_SPI1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__CFG_ZCD$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+end_of_initialization A6 0 CODE 0 cinit dist/default/production\DotFlipper.X.production.o
+_TMR0_Initialize 706 0 CODE 0 text3 dist/default/production\DotFlipper.X.production.o
+__Hintentry 6E 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TX1STAbits 11E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 4 0 CODE 0 reset_vec -
+EUSART1_SetRxInterruptHandler@interruptHandler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__size_of_tmr0InterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_RxDataHandler 6A8 0 CODE 0 text27 dist/default/production\DotFlipper.X.production.o
+__ptext1 AE 0 CODE 0 text1 dist/default/production\DotFlipper.X.production.o
+__ptext2 6DA 0 CODE 0 text2 dist/default/production\DotFlipper.X.production.o
+__ptext3 706 0 CODE 0 text3 dist/default/production\DotFlipper.X.production.o
+__ptext4 81C 0 CODE 0 text4 dist/default/production\DotFlipper.X.production.o
+__ptext5 66C 0 CODE 0 text5 dist/default/production\DotFlipper.X.production.o
+__ptext6 828 0 CODE 0 text6 dist/default/production\DotFlipper.X.production.o
+__ptext7 800 0 CODE 0 text7 dist/default/production\DotFlipper.X.production.o
+__ptext8 606 0 CODE 0 text8 dist/default/production\DotFlipper.X.production.o
+__ptext9 7B6 0 CODE 0 text9 dist/default/production\DotFlipper.X.production.o
+_RX1DTPPS 1ECB 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+i1setDots@newData 78 0 COMMON 1 cstackCOMMON dist/default/production\DotFlipper.X.production.o
+__end_of_tmr0InterruptHandler 59E 0 CODE 0 text22 dist/default/production\DotFlipper.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+_SLRCONA 1F3B 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SLRCONB 1F46 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SLRCONC 1F51 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of__initialization A6 0 CODE 0 cinit dist/default/production\DotFlipper.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__pidataBANK0 87C 0 CODE 0 idataBANK0 dist/default/production\DotFlipper.X.production.o
+_SP1BRGH 11C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SP1BRGL 11B 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1CON3bits 192 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_SetRxInterruptHandler 834 0 CODE 0 text11 dist/default/production\DotFlipper.X.production.o
+_eusart1RxBuffer 28 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__pcstackCOMMON 76 0 COMMON 1 cstackCOMMON dist/default/production\DotFlipper.X.production.o
+_T0CON0bits 59E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hend_init 72 0 CODE 0 end_init -
+__size_of_TMR0_SetInterruptHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__end_of_SPI1_SetInterruptHandler 834 0 CODE 0 text6 dist/default/production\DotFlipper.X.production.o
+__size_of_eusart1RxDataHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_EUSART1_SetFramingErrorHandler 84C 0 CODE 0 text13 dist/default/production\DotFlipper.X.production.o
+_EUSART1_SetOverrunErrorHandler 840 0 CODE 0 text12 dist/default/production\DotFlipper.X.production.o
+__end_of_main 4C0 0 CODE 0 maintext dist/default/production\DotFlipper.X.production.o
+__CFG_WRTSAF$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_OSCEN 891 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PORTA C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PORTB D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_PORTC E 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TMR0H 59D 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TMR0L 59C 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TRISA 12 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TRISB 13 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_TRISC 14 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__size_of_TMR0_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+_eusart1RxCount 73 0 COMMON 1 bssCOMMON dist/default/production\DotFlipper.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\DotFlipper.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__end_of_EUSART1_Initialize 606 0 CODE 0 text10 dist/default/production\DotFlipper.X.production.o
+__end_of_OSCILLATOR_Initialize 7D2 0 CODE 0 text9 dist/default/production\DotFlipper.X.production.o
+__end_of_eusart1RxDataHandler 77A 0 CODE 0 text18 dist/default/production\DotFlipper.X.production.o
+__CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__initialization 72 0 CODE 0 cinit dist/default/production\DotFlipper.X.production.o
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+_counter 41 0 BANK0 1 dataBANK0 dist/default/production\DotFlipper.X.production.o
+_eusart1RxStatusBuffer 20 0 BANK0 1 bssBANK0 dist/default/production\DotFlipper.X.production.o
+__size_of_EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\DotFlipper.X.production.o
+EUSART1_SetOverrunErrorHandler@interruptHandler 3C 0 BANK0 1 cstackBANK0 dist/default/production\DotFlipper.X.production.o
+_OSCILLATOR_Initialize 7B6 0 CODE 0 text9 dist/default/production\DotFlipper.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text24 0 436 86C D 2
+stringtext1 0 432 864 4 2
+intentry 0 4 8 42E 2
+reset_vec 0 0 0 2 2
+bssBANK0 1 20 20 26 1
+bssCOMMON 1 70 70 B 1
+config 0 8007 1000E 5 2
+# OTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by OTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
