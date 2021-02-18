@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS138
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP DMG6602SVT
+D 4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/DMG6602SVT.pdf
+$ENDCMP
+#
+$CMP NCP718BSN500T1G
+D Régulateur LDO Tension fixe, 2,5V à 24V, Dropout 250mV, Sortie 5V, 300mA, TSOT-23-5
+K REGULATOR LDO 5V
+F http://www.farnell.com/datasheets/2711392.pdf
+$ENDCMP
+#
+$CMP PIC16F15354-I_SS
+D PIC16F15354, 14K Flash, 1KB SRAM, ADC, PWM, SSOP28
+K Flash-Based 8-Bit Microcontroller
+F https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0004002290/MCHP-S-A0004002290-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP PIC16F15355-I-MV
+D PIC16F15354, 14K Flash, 1KB SRAM, ADC, PWM, SSOP28
+K Flash-Based 8-Bit Microcontroller
+F https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0004002290/MCHP-S-A0004002290-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+#End Doc Library
